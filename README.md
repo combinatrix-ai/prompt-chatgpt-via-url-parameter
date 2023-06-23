@@ -8,7 +8,7 @@ With this Chrome Extension installed, you can input the initial prompt for the O
 
 ## Example
 
-- Open this link [https://chat.openai.com/&q=hello](https://chat.openai.com/&q=hello) in your browser with this extension installed.
+- Open this link [https://chat.openai.com/?q=hello](https://chat.openai.com/?q=hello) in your browser with this extension installed.
 - You will see the query text (in this example, "hello") is automatically typed into the textarea:
 
 ![image.png](https://github.com/hmirin/prompt-chatgpt-via-url-parameter/assets/1284876/9687a085-62c7-4a43-9263-960f9911d831)
