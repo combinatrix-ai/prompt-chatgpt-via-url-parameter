@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt ChatGPT via URL param",
+  "description": "Pass your prompt directly for ChatGPT as a URL parameter! No more copy pasting!",
+  "version": "0.1.0",
+  "host_permissions": [
+    "https://chat.openai.com/*"
+  ],
+  "content_scripts": [
+        {
+        "matches": ["https://chat.openai.com/*"],
+        "js": ["content-script.js"]
+        }
+    ]
+}
