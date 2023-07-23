@@ -15,7 +15,7 @@ function main(e) {
         if (query) {
           const decodedQuery = decodeURIComponent(query);
           document.getElementById("prompt-textarea").value = decodedQuery;
-          document.getElementById("prompt-textarea").dispatchEvent(new Event('input', { bubbles: true })); // activate send button
+          document.getElementById("prompt-textarea").dispatchEvent(new Event('input', { bubbles: true })); // activate send button and adjust height of textarea
           document.getElementById("prompt-textarea").dispatchEvent(new KeyboardEvent('keydown', { keyCode: 13, bubbles: true }));
         }
       }, 1000);
