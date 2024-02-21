@@ -6,6 +6,10 @@
 
 With this Chrome Extension installed, you can input the initial prompt for the OpenAI ChatGPT via a URL parameter.
 
+## Installation
+
+Go to [Chrome Webstore](https://chromewebstore.google.com/detail/prompt-chatgpt-via-url-pa/ebnjcbckimmadkpjkpkgfiobinjmmdjb?hl=ja&authuser=1).
+
 ## Example
 
 - Open this link [https://chat.openai.com/?q=hello](https://chat.openai.com/?q=hello) in your browser with this extension installed.
